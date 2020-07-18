@@ -1,0 +1,14 @@
+  
+.checked {
+    text-decoration: line-through
+}
+
+.Main {
+    width: 400px; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.filterFields {
+    margin-right: 15px;
+}
