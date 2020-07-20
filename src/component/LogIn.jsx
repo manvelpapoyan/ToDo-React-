@@ -22,6 +22,8 @@ class LogIn extends React.Component {
   onRegistreClick = () => {
     const { email, password } = this.state;
     auth
+
+    
       .createUserWithEmailAndPassword(email, password)
       .then((data) => {
         db.collection("users")

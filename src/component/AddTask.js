@@ -2,7 +2,7 @@ import React from 'react';
 import ThemeContext from '../contexts/ThemeContext';
 import { BLACK_THEME_COLOR, BLUE_THEME_COLOR } from '../constants/style';
 
-
+let f;
 class AddTask extends React.Component {
     render() {
         const color = this.context === 'black' ? BLACK_THEME_COLOR : BLUE_THEME_COLOR;
