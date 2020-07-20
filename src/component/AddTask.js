@@ -6,7 +6,9 @@ import { BLACK_THEME_COLOR, BLUE_THEME_COLOR } from '../constants/style';
 class AddTask extends React.Component {
     render() {
         const color = this.context === 'black' ? BLACK_THEME_COLOR : BLUE_THEME_COLOR;
+  
 
+        
         return (
             <div className="AddTask">
                 

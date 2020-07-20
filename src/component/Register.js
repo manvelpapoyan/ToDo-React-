@@ -15,6 +15,9 @@ class Register extends React.Component {
         name: "",
         role: ""
       },
+
+
+      
       formValidity: {
         name: false,
         role: false
