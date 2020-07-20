@@ -9,6 +9,7 @@ class AddTask extends React.Component {
 
         return (
             <div className="AddTask">
+                
                 <h1 style={{ color }}>Things Todo</h1>
                 <div>
                     <input onChange={this.props.handleChange} value={this.props.inputValue} type="text"
